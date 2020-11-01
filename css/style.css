@@ -3,7 +3,9 @@
   margin: 0;
   padding: 0;
 }
-
+body {
+  overflow: hidden;
+}
 .container {
   background-image: url(../img/bgpic.jpg);
   background-size: contain;
@@ -49,6 +51,9 @@
 }
 .btn-primary {
   margin-bottom: 5px;
+}
+.btn-secondary {
+  margin-top: 10px;
 }
 
 .salDisp {

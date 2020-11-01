@@ -6,8 +6,8 @@ function getSalary () {
   let overTimePay = 0;
   
   document.getElementById("empName").innerHTML=`Employee: ${emName}`;
-  document.getElementById("ovPayment").innerHTML=`Over time payment: ${overTimePay}`
-  document.getElementById("empID").innerHTML=`Identification Number: ${idNum}`
+  
+  document.getElementById("empID").innerHTML=`Identification Number: ${idNum}`;
 
   document.getElementById("salary").innerHTML=`Salary:     ${normalPay}`;
   if(whour > 4) {
@@ -15,7 +15,7 @@ function getSalary () {
 
   }
   document.getElementById('salary').innerHTML = `Salary: ${normalPay + overTimePay}`;
-  
+  document.getElementById("ovPayment").innerHTML=`Over time payment: ${overTimePay}`;
 
 }
 
